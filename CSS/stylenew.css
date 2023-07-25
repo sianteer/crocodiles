@@ -19,6 +19,27 @@ section, header {
     max-width: 700px;
     margin: auto;
 }
+.market img {
+    padding-bottom: 2em
+}
+
+.market {
+    background: #943A22;
+    padding: 3em 0;
+}
+
+.street {
+    background: #B5704B;
+    padding: 3em 0;
+}
+
+
+.gridimage {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); 
+}
+
 
 /*-- Styling typography --*/
 
@@ -76,6 +97,13 @@ a:hover {
     color: #943A22;
     border-bottom: 1px dotted;
 }
+/*----- IMAGES -----*/
+img {
+    display: block;
+    padding: 0;
+    max-width: 100%;
+}
+
 
 /*-- Styling nav --*/
 
